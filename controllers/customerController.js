@@ -1,5 +1,5 @@
 const Customer = require('../models/customers');
-const validator = require('../customerValidations/customerValidator')
+const validator = require('../validations/customerValidator')
 
 // Controller function to create a customer
 exports.createCustomer = async (req, res) => {
